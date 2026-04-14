@@ -1,0 +1,12 @@
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (nếu có)
+*.log
+
+# Environment files (nếu sau này dùng)
+.env
