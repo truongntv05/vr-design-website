@@ -57,13 +57,51 @@ nav a:hover::after {
 }
 
 /* HERO */
-.hero {
+/* .hero {
   height: 100vh;
   background: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e")
     center/cover fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+} */
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Video full màn hình */
+.hero-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Lớp phủ tối */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+/* Nội dung nằm trên */
+.hero-content {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
   text-align: center;
 }
 
@@ -72,12 +110,6 @@ nav a:hover::after {
   font-size: 64px;
   color: #d3571eec;
 }
-
-/* .text-main {
-  background: linear-gradient(0deg, #d64b0a, #d64b0a);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
 .text-accent {
   color: #f3f0ed;
 }
