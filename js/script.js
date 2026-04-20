@@ -12,7 +12,7 @@ loadComponent("contact", "./components/contact.html");
 loadComponent("about", "./components/about.html");
 // gọi service
 loadComponent("service", "./components/service.html");
-// gọi service
+// gọi projects
 loadComponent("projects", "./components/projects.html");
 
 // search..
@@ -45,3 +45,4 @@ window.addEventListener("scroll", () => {
   const header = document.querySelector(".header");
   header.classList.toggle("scrolled", window.scrollY > 50);
 });
+//  ...............

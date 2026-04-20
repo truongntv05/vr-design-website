@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Biệt thự hiện đại</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: #fff;
+      }
+
+      /* HERO */
+      .hero {
+        height: 100vh;
+        background: url("https://images.unsplash.com/photo-1507089947368-19c1da9775ae")
+          center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 50px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 20px 40px;
+        border-radius: 10px;
+      }
+
+      /* CONTENT */
+      .container {
+        padding: 60px 10%;
+        background: #fff;
+        color: #000;
+      }
+
+      .info {
+        margin-bottom: 40px;
+      }
+
+      .info h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .info p {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      /* GALLERY */
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+
+      .gallery img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: 0.4s;
+      }
+
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+
+      /* BACK BUTTON */
+      .back {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        background: #fff;
+        color: #000;
+        padding: 10px 15px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- BACK -->
+    <a href="/index.html#projects" class="back">← Quay lại</a>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Biệt thự hiện đại</h1>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="container">
+      <div class="info">
+        <h2>Thông tin dự án a</h2>
+        <p>
+          Dự án biệt thự hiện đại với phong cách tối giản, sử dụng vật liệu cao
+          cấp, tối ưu ánh sáng tự nhiên và không gian mở.
+        </p>
+        <p><strong>Diện tích:</strong> 350m²</p>
+        <p><strong>Năm:</strong> 2024</p>
+        <p><strong>Địa điểm:</strong> Đà Nẵng</p>
+      </div>
+
+      <div class="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+        />
+      </div>
+      <a href="/index.html#contact">Chi tiết liên hệ →</a>
+    </section>
+    <!-- --------------------------------------------------------------------- -->
+    <section class="hero">
+      <h1>Biệt thự vườn</h1>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="container">
+      <div class="info">
+        <h2>Thông tin dự án b</h2>
+        <p>
+          Dự án biệt thự hiện đại với phong cách tối giản, sử dụng vật liệu cao
+          cấp, tối ưu ánh sáng tự nhiên và không gian mở.
+        </p>
+        <p><strong>Diện tích:</strong> 350m²</p>
+        <p><strong>Năm:</strong> 2024</p>
+        <p><strong>Địa điểm:</strong> Đà Nẵng</p>
+      </div>
+
+      <div class="gallery">
+        <img
+          src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+        />
+      </div>
+      <a href="/index.html#contact">Chi tiết liên hệ →</a>
+    </section>
+  </body>
+</html>

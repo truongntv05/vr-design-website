@@ -393,9 +393,19 @@ h2 {
   margin-top: 40px;
 }
 
-.card {
+/* .card {
   overflow: hidden;
   position: relative;
+} */
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
 .card img {
